@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const MenuElement = function ({ text, to }) {
     return (
         <div className="MenuElement">
-            <Link to={to}><h3>{text}</h3></Link>
+            <Link className="LinkElement" to={to}>{text}</Link>
         </div>
     )
 }
@@ -13,7 +13,6 @@ const MenuElement = function ({ text, to }) {
 export const Menu = function () {
     return (
         <div>
-            <Link to="/"><img className="" ></img></Link>
             <div className="Menu">
                 <MenuElement text="Island" to="/island" />
                 <MenuElement text="Mountain" to="/mountain" />
