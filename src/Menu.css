@@ -1,0 +1,16 @@
+.Menu{
+    width: 100%;
+    border: 0px solid;
+    min-height: 3em;
+    background-color: #63D2FF;
+    color:#FFFFFA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.MenuElement{
+    margin-right: 2em;
+    margin-left: 2em;
+}

@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
+
+body {
+  background: #F4EDED;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: 'Comfortaa', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+  font-family: 'Patua One', serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #007489;
+}
+
+p {
+	margin-bottom: 1.5em;
+  color: #898989;
+}
+
+.cover {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-content{
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+	background: white;
+	margin-bottom: 2em;	
+	flex: 0 0 33%;
+}
+
+.card img {
+	display: block;
+	border: 0;
+	width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+  padding: 1.4em;
+  position: relative;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}.card {
+	background: white;
+	margin-bottom: 2em;	
+	flex: 0 0 33%;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    flex: 0 0 50%;
+  }
+}
+
+.card img {
+	display: block;
+	border: 0;
+	width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+}
+
+.card-content {
+  padding: 1.4em;
+  position: relative;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+.destinationdetailspage {
+  
+  background: white;
+  padding: 1.4em;
+}
+
+.destinationdetailspage h2 {
+  font-size: 2rem;
+  color: #007489;
+}
+
+.island img {
+  display: block;
+	border: 0;
+	width: auto;
+  height: 500px;
+  
+}
